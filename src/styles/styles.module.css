@@ -1,0 +1,84 @@
+.centerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.mic {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: #27e5f3;
+  color: #fff;
+  font-size: 33px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+
+.mic::before {
+  content: "";
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  background-color: inherit;
+  z-index: -1;
+}
+
+.listening {
+  background-color: #0da9d9;
+}
+
+.listening::before {
+  animation: listening 1.3s infinite;
+}
+
+@keyframes listening {
+  from {
+    opacity: 0.25;
+  }
+  to {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.responseContainer {
+  margin-top: 20px;
+  background-color: #f7f9fc;
+  border: 1px solid #dfe3e8;
+  border-radius: 8px;
+  padding: 20px;
+  width: 60%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+.responseHeader {
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.responseText {
+  color: #555;
+  font-size: 1.2rem;
+}
+
+.downloadLink {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.downloadLink:hover {
+  text-decoration: underline;
+}

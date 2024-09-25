@@ -1,0 +1,66 @@
+/* CSS file: SearchAdvance.css */
+
+/* Chatbot popup container */
+.chatbot-popup {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 82vw;
+  max-width: 1900px;
+  height: 91vh;
+  max-height: 900px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  z-index: 1001;
+}
+
+
+/* Minimized state for the chatbot */
+.chatbot-popup.minimized {
+  height: 50px;
+}
+
+/* Banner styles */
+#banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(11, 85, 106);
+  color: white;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.banner-title {
+  font-size: 20px;
+  margin: 0;
+}
+
+.banner-controls {
+  display: flex;
+  gap: 10px;
+}
+
+.banner-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+.watermark1 {
+    /* width: 50px;  */
+    height: 50px;
+    font-size: xxx-Large;
+    font-family: emoji;
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 500px;
+    color: rgba(0, 0, 0, 0.3);
+    font-weight: 600; 
+}

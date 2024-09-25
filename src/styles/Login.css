@@ -1,0 +1,194 @@
+
+
+.imageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.mainImage {
+    content: '';
+    position: absolute;    
+    left: 77vh;
+    right: 50vh;
+    background: #f1f1f1;
+    border: solid white 1px;
+    border-radius: 10%;
+    width: 65vh;    
+    height: 38vh;
+    object-fit: cover;
+    border-radius: 50%;
+    border: solid white 1px;
+    background: #f1f1f1;
+}
+
+.contentContainer {
+    position: absolute;
+    top: 49vh;
+    left: 30vh;
+    right: 21vh;
+    bottom: 50vh;
+}
+
+
+.checkbox2 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); /* Add a slight white background to make text readable */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; /* Adjust the size as needed */
+    z-index: 1; /* Ensure the content is above the background */
+    flex-wrap: wrap;
+}
+
+.checkbox1,
+.checkbox2 {
+    height: 17px;
+    width: 20px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.paracontent,
+.paracontentP {
+    font-size: 14px;
+}
+/* CSS for the hover popup */
+.hover-popup {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border: 1px solid grey;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    font-size: 14px;
+    color: black;
+    pointer-events: none;
+    background-image: url('../assets/images/Assistbot.png'); /* Replace with your watermark image path */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Other CSS styles */
+.loginHeader .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerLogo {
+    width: 150px;
+}
+
+.buttonContainer {
+    display: flex;
+    align-items: center;
+}
+
+.btnLogin {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    font-size: smaller;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+
+.footer p {
+    margin: 0;
+}
+
+.btnLogin {
+    background-color: rgb(0, 79, 154);
+    color: white;
+    height: 45px;
+    width: 100px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btbLoingDown {
+    margin-top: 25px;
+    height: 6vh;
+    width: 75px;
+    position: relative;
+    top: 63vh;
+    /* left: 16vh; */
+}
+
+.chatbot-popup {
+    position: fixed;
+    bottom: 90px;
+    right: 10px;
+    width: 1400px;
+    height: 670px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    z-index: 1001;
+}
+
+.likes__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    gap: 20px; /* Add some space between sections */
+  }
+  
+  .likes__relavance {
+    position: relative;
+    padding: 0 80px;
+  }
+  
+  .likes__heading {
+    text-align: center; /* Center the heading text */
+    margin-bottom: 10px; /* Space between heading and list */
+  }
+  
+  .likes__list {
+    position: absolute;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    max-height: 150px;
+    left: 0;
+    z-index: 999;
+    background: white;
+    padding: 10px;
+    border: 1px solid grey;
+    box-shadow: 0 0 2px 2px grey;
+  }
+  .relative {
+    position: relative;
+}
+
+.relative .overlapping-text {
+    position: absolute;
+    top: 50%; /* Adjust as needed */
+    left: 50%; /* Adjust as needed */
+    transform: translate(-50%, -50%); /* Center the text */
+    background: rgba(0, 0, 0, 0.5); /* Optional: Add background to improve readability */
+    color: white; /* Text color */
+    padding: 5px; /* Adjust padding */
+    border-radius: 3px; /* Optional: Rounded corners */
+    font-size: 14px; /* Adjust font size */
+    font-weight: bold; /* Optional: Make text bold */
+    text-align: center; /* Center the text */
+}

@@ -1,0 +1,42 @@
+/* .inputEnergy{
+    width: 1000px;
+    position: relative;
+    top: 400px; 
+}
+.btnEnergySend{
+    position: relative;
+    top: 400px; 
+    height: 31px;
+    width: 37px;
+    background-color: rgb(0 79 154);
+    border: none;
+    color: white;
+
+} */
+
+.inputAiEnergy{
+    width: 1013px;
+    border-radius: 3px;
+    border: 1px solid gray;
+    height: 41px;
+}
+.btnAiEnergySubmit{
+    border-radius: 3px;
+    border: 1px solid gray;
+    height: 41px;
+    width: 60px;
+    background-color:  rgb(0 79 154);
+}
+.inputChatBotcurrentPower{
+    width: 1013px;
+    border-radius: 3px;
+    border: 1px solid gray;
+    height: 41px;
+}
+.btnChatBotcurrentPower{
+    border-radius: 3px;
+    border: 1px solid gray;
+    height: 41px;
+    width: 60px;
+    background-color:  rgb(0 79 154);
+}

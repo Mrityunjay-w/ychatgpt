@@ -1,0 +1,313 @@
+
+.Chartcontainer{
+    overflow-x: hidden;
+}
+.windImage{
+    position: relative;
+    top: 5px;
+}
+
+
+.imgWindturbine{
+    /* width: 189px;
+    height: 225px; */
+
+    width: 287px;
+    height: 230px;
+}
+.pEnergyConsumed{
+     /* font-size: 12px; 
+    color: #f38607;
+    font-weight: 600; */
+
+    font-size: 17px;
+    color: #f38607;
+    font-weight: 500;
+}
+.divEnergy{
+    position: relative;
+    top: 26px;
+}
+.divPEnergyConsumption{
+    position: relative;
+    /* right: 127px; */
+
+    /* right: 357px; */
+}
+.pEnergyConsumption{
+    font-weight: bold;
+    color: gray;
+}
+
+.divChat{
+    position: relative;
+    bottom: 36px;
+    /* right: 135px; */
+    left: 428px;
+    z-index: 1000;
+}
+.btnChat{
+    border: none;
+    background-color: white;
+}
+.btnChatVoltageFrequency{
+    border: none;
+    background-color: white;
+}
+.btnChatCurrentPower{
+    border: none;
+    background-color: white;
+}
+.divDateTimePicker{
+    /* position: relative;
+    left: 67px;
+    bottom: 38px; */
+
+    position: relative;
+    bottom: 62px;
+    /* right: 16px; */
+    left: 483px;
+}
+.divChatPower{
+    position: relative;
+    left: 221px;
+    bottom: 41px;
+}
+.btnChatPower{
+    border: none;
+    background-color: white; 
+}
+.divChatCurrent{
+    position: relative;
+    left: 221px;
+    bottom: 41px;
+}
+.btnChatCurrent{
+    border: none;
+    background-color: white; 
+}
+.btnChatAlaram{
+    border: none;
+    background-color: white;
+}
+
+.divdropdownStatus{
+    position: relative;
+    bottom: 85px;
+    left: 692px;
+}
+
+.divEnergyConsumptionBarchart{
+    position: relative;
+    height: 236px;
+    bottom: 77px;
+    left: 145px;
+}
+.divCurrentPower{
+    position: relative;
+    /* right: 168px; */
+}
+.pCurrent{
+    font-weight: bold;
+    color: gray;
+}
+.divChatCurrentPower{
+    position: relative;
+    left: 491px;
+    bottom: 37px;
+    z-index: 1000;
+}
+.ReactModal__Overlay {
+    z-index: 1050;  /* Ensure this is high enough to cover all other elements */
+    background-color: rgba(0, 0, 0, 0.90) !important; /* Add background color with opacity */
+}
+.divCurrentSave{
+    position: relative;
+    /* bottom: 38px; */
+    bottom: 64px;
+    left: 537px;
+}
+.btnCurrentSave{
+    border: none;
+    background-color: white;
+}
+.divCurrentFullScreen{
+    position: relative;
+    left: 168px;
+    /* bottom: 64px; */
+    bottom: 90px;
+}
+.btnCurrentFullScreen{
+    border: none;
+    background-color: white;
+}
+.divCurrentLineChart{
+    position: relative;
+    height: 236px;
+    bottom: 50px;
+}
+.divVoltageFrequencyLineChart{
+    position: relative;
+    height: 236px;
+    bottom: 10px;
+}
+.pPower{
+    font-size: 17px;
+    font-weight: 500;
+    color: #b95cb9;
+}
+.divDoughnutPower{
+    position: relative;
+    height: 210px;
+    left: 41px;
+}
+.pDoughCurrent{
+    font-size: 17px;
+    font-weight: 500;
+    color: #e75a20;
+}
+.pContactInfo{
+    position: relative;
+    /* right: 11px; */
+    font-weight: bold;
+    color: gray;
+}
+.hoffice{
+    /* margin-right: 53px; */
+    margin-left: 10px;
+    font-size: 13px;
+}
+.pAddress{
+    position: relative;
+    /* right: -2px; */
+    font-size: 11px;
+    font-weight: bold;
+    color: gray;
+    left: 7px;
+}
+.pAddDetail{
+    position: relative;
+    font-size: 10px;
+    bottom: 10px;
+    left: 10px;
+}
+.pPhone{
+    position: relative;
+    bottom: 15px;
+    /* right: 28px; */
+    font-size: 11px;
+    color: gray;
+    font-weight: bold;
+    left: 7px;
+}
+.pPhoneNumber{
+    position: relative;
+    bottom: 27px;
+    font-size: 10px;
+    /* right: 17px; */
+    left: 15px;
+}
+.pEmail{
+    position: relative;
+    font-size: 11px;
+    color: gray;
+    font-weight: bold;
+    bottom: 22px;
+    /* right: 27px; */
+    left: 7px;
+}
+.pEmailAddress{
+    position: relative;
+    bottom: 36px;
+    font-size: 10px;
+    left: 11px;
+}
+.divEnergyMeter{
+    position: relative;
+    /* right: 216px; */
+    color: gray;
+    font-weight: bold;
+}
+.divChatAlaram{
+    position: relative;
+    left: 414px;
+    bottom: 36px;
+}
+.divEnergySearch{
+    position: relative;
+    bottom: 61px;
+    left: 464px;
+}
+.btnenergySearch{
+    border: none;
+    background-color: white;
+}
+.divEnergySave{
+    position: relative;
+    left: 512px;
+    bottom: 88px;
+}
+
+.btnEnergySave{
+    border: none;
+    background-color: white;
+}
+.divEnergyScreen{
+    position: relative;
+    left: 209px;
+    bottom: 114px;
+}
+
+.btnEnergyFullScreen{
+    border: none;
+    background-color: white;
+}
+
+.divVoltageFrequency{
+    position: relative;
+    color: gray;
+    font-weight: bold;
+    /* right: 107px; */
+}
+.divChatVoltageFrequency{
+    position: relative;
+    left: 302px;
+    bottom: 39px;
+}
+.divVoltageFrequencySave{
+    position: relative;
+    left: 345px;
+    bottom: 65px;
+}
+
+.btnVoltageFrequencySave{
+    border: none;
+    background-color: white; 
+}
+.divVoltageFrequencyScreen{
+    position: relative;
+    left: 146px;
+    bottom: 90px;
+}
+
+.btnVoltageFrequencyFullScreen{
+    border: none;
+    background-color: white; 
+}
+
+.pvltg{
+    color: cornflowerblue;
+    font-weight: bold;
+}
+.pVltgValue{
+    color: cornflowerblue;
+    font-weight: 500;
+}
+.pFrqny{
+    color: #7aad7a;
+    font-weight: bold;
+}
+.pFrqValue{
+    color: #7aad7a;
+    font-weight: 500;
+}

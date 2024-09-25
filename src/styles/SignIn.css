@@ -1,0 +1,89 @@
+.background-video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Adjust height as needed */
+  overflow: hidden;
+}
+
+#background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* This ensures the video covers the entire container */
+}
+
+.content {
+  position: relative;
+  z-index: 1; /* Ensure content appears above the video */
+}
+
+/* Positioning and styling the floating button */
+.divSignIn {
+position: fixed;
+right: 52px;
+bottom: 50px;
+}
+
+.btnSignIn {
+border: none;
+background-color: rgb(0, 79, 154);
+color: white;
+height: 45px;
+width: 86px;
+border-radius: 5px;
+font-size: 15px;
+font-weight: bold;
+cursor: pointer;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.btnSignIn .fa-icon {
+font-size: 26px;
+}
+
+/* Adjust the position for smaller screens */
+@media (max-width: 768px) {
+.divSignIn {
+    right: 15px;
+    bottom: 15px;
+}
+
+.btnSignIn {
+    height: 40px;
+    width: 80px;
+}
+}
+
+@media (max-width: 480px) {
+.divSignIn {
+    right: 10px;
+    bottom: 10px;
+}
+
+.btnSignIn {
+    height: 35px;
+    width: 75px;
+}
+}
+
+
+/* .lgsignin{
+  position: static;
+  height: 65px;
+  width: 213px;
+  left: 275px;
+  top: 274px;
+  margin-top: 20px;
+} */
+
+.lgsignin{
+  position: fixed;
+  height: 65px;
+  width: 244px;
+  left: 27px;
+  top: 27px;
+}

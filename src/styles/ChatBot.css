@@ -1,0 +1,232 @@
+h1 {
+    color: whitesmoke;
+    font-family: Segoe UI;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0;
+    padding: 0 20px;
+  }
+
+  #banner {
+    align-items: center;
+    background-color: rgb(11, 85, 106);
+    color: rgb(255, 255, 255);
+    display: flex;
+    height: 50px;
+    /* width: 30%; */
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+ 
+    
+
+
+  
+
+   /* -------------------------------------------Animation Bot------------------------------------------------------ */
+  
+  .mainBotAnimation{
+    position: fixed;
+    /* left: 181vh; */
+    /* top: 35vh; */
+    /* bottom: 3px; */
+    top:-3vh;
+  }
+  
+  .cute-robot-v1 {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+ 
+    /* * {
+        box-sizing: border-box;
+    } */
+ 
+    .circle-bg {
+        /* background: #cedbdd; */
+        width: 50px; /* Adjusted size for the circle background */
+        height: 50px; /* Adjusted size for the circle background */
+        border-radius: 50%;
+        /*border: 1.6px solid #0033cc; /* Adjusted border width */
+        position: relative;
+ 
+        &:after {
+            content: "";
+            position: absolute;
+            z-index: 2;
+            height: 100%;
+            width: 100%;
+            top: -0.6px;
+            left: 0;
+            border-radius: 50%;
+           /* border-bottom: 2px solid #0033cc; /* Adjusted border width */
+        }
+ 
+        &:hover {
+            .robot-face {
+                top: 8px !important; /* Adjusted position */
+            }
+ 
+            .eyes {
+                top: 6px !important; /* Adjusted position */
+            }
+ 
+            .mouth {
+                background: #0033cc;
+                border: none;
+                clip-path: polygon(0% 30%, 100% 30%, 100% 100%, 0% 100%);
+ 
+                &:after {
+                    content: "";
+                    position: absolute;
+                    height: 80%;
+                    width: 80%;
+                    bottom: -30%;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    background: #f9bbbb;
+                    border-radius: 50%;
+                }
+            }
+ 
+            .popup-message {
+                opacity: 1;
+                transform: translateY(0);
+                animation: bounceIn 0.6s ease;
+            }
+        }
+ 
+        .robot-head {
+            height: 40px; /* Adjusted size for the robot head */
+            width: 40px; /* Adjusted size for the robot head */
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: -4px; /* Adjusted position */
+            border: 1.6px solid #0033cc; /* Adjusted border width */
+            border-radius: 17px / 12px; /* Adjusted border radius */
+            background: #ffffff;
+            z-index: 4;
+ 
+            &:after {
+                content: "";
+                position: absolute;
+                top: -6px;
+                height: 6px; /* Adjusted height */
+                width: 2px; /* Adjusted width */
+                left: 50%;
+                transform: translateX(-50%);
+                background: #0033cc;
+            }
+ 
+            &:before {
+                content: "";
+                position: absolute;
+                top: -12px;
+                left: 50%;
+                transform: translateX(-50%);
+                height: 4px; /* Adjusted height */
+                width: 4px; /* Adjusted width */
+                background: #cedbdd;
+                border: 1.6px solid #0033cc; /* Adjusted border width */
+                border-radius: 50%;
+            }
+ 
+            .robot-face {
+                height: 24px; /* Adjusted size for the robot face */
+                width: 32px; /* Adjusted size for the robot face */
+                background: #cedbdd;
+                position: absolute;
+                top: 9px; /* Adjusted position */
+                left: 50%;
+                transform: translateX(-50%);
+                border: 1.6px solid #0033cc; /* Adjusted border width */
+                transition: all 400ms ease;
+                border-radius: 9px;
+ 
+                .eyes {
+                    height: 4px; /* Adjusted size for the eyes */
+                    width: 4px; /* Adjusted size for the eyes */
+                    background: #0033cc;
+                    border-radius: 50%;
+                    position: absolute;
+                    transition: all 400ms ease;
+                    top: 8px;
+ 
+                    &.left {
+                        left: 6px;
+                    }
+ 
+                    &.right {
+                        right: 6px;
+                    }
+                }
+ 
+                .mouth {
+                    height: 9px; /* Adjusted size for the mouth */
+                    width: 9px; /* Adjusted size for the mouth */
+                    border-radius: 50%;
+                    border: 1.6px solid transparent; /* Adjusted border width */
+                    border-bottom-color: #0033cc;
+                    position: absolute;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    top: 10px; /* Adjusted position */
+                    overflow: hidden;
+                }
+            }
+        }
+ 
+        .robot-ear {
+            position: absolute;
+            height: 20px; /* Adjusted size for the ears */
+            width: 20px; /* Adjusted size for the ears */
+            border-radius: 50%;
+            background: #ffffff;
+            border: 1.6px solid #0033cc; /* Adjusted border width */
+            z-index: 3;
+            top: 6px;
+ 
+            &.left {
+                left: -4px;
+            }
+ 
+            &.right {
+                right: -4px;
+            }
+        } 
+        
+        
+        }
+        
+        @keyframes bounceIn {
+          0% {
+            opacity: 0;
+            transform:
+              translateY (6px);
+          }
+        
+          50% {
+            transform:
+              translateY (-2px);
+          }
+        
+          80% {
+            transform:
+              translateY (1px);
+          }
+        
+          100% {
+            opacity: 1;
+            transform:
+              translateY (0);
+          }
+        }
+        }
+        
+
+
+

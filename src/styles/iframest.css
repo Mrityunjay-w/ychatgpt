@@ -1,0 +1,47 @@
+  /* Chatbot Container */
+  .chatbot-container {
+    position: fixed;
+    /* bottom: 54px; */
+    bottom: 96px;
+    right: 40px;  
+    /* width: 594px; */
+    /* width: 961px; */
+    width: 1048px;
+    background-color: white;
+    box-shadow: 0 10px 20px rgba(90, 54, 198, 0.3);
+    border-radius: 5px;
+    overflow: hidden;
+    display: block;
+  }
+  .chatbot-container.closed {
+    display: none;
+  }  
+  /* Minimize Button */
+  .minimize-button {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    background-color: rgb(11, 85, 106);
+    color: #b81b1b;
+    border: none;
+    padding: 2px 10px;
+    cursor: pointer;
+  }  
+  /* Iframe */
+  .chatbot-container iframe {
+    width: 100%;
+    height: calc(100% - 90px); /* Adjust height to accommodate the button */
+    border: none;
+  }
+  .chat-icon {
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border: none; /* Remove any border */
+    padding: 0; /* Remove any padding */
+    margin: 0; /* Remove any margin */
+  }
+  
+ 
+
+  

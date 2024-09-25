@@ -1,0 +1,187 @@
+#imageSlider {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.slide {
+  width: 100%;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.slide img {
+  width: 100%;
+  height:85vh;
+
+}
+
+/* ----------------------- */
+
+.divsearchoriented{
+  height: 450px;
+  width: 450px;
+  border: 1px solid rgb(0, 79, 154);
+  position: relative;
+  top: 20px;
+  left: 30px;
+  border-radius: 20px;
+  background-color: rgb(0, 79, 154);
+  transition: transform .2s; /* Animation */
+  padding: 50px;
+}
+
+/* .divsearchoriented:hover{
+  transform: scale(1.1);
+} */
+
+.divactionhoriented{
+  height: 450px;
+  width: 609px;
+  border: 1px solid rgb(0, 79, 154);
+  margin-left: 84px;
+  margin-top: 33px;
+  /* position: relative; */
+  /* top: 20px; */
+  /* left: 573px; */
+  border-radius: 20px;
+  background-color: rgb(0, 79, 154);
+  transition: transform .2s; 
+  
+  padding: 50px;
+  /* bottom: 432px; */
+}
+
+/* .divactionhoriented:hover{
+  transform: scale(1.1);
+} */
+.psearchoriented{
+  position: relative;
+  text-align: center;
+  bottom: 34px;
+  color: white;
+  font-size: 18px;
+  /* font-weight: bold; */
+}
+.fontawesoneinternal{
+  color: white;
+  position: relative;
+  right: 30px;
+  /* bottom: 6px; */
+}
+.fontawesomeweb{
+  position: relative;
+  top: 36px;
+  right: 31px;
+  color: white;
+}
+.fontawesomeassistbot{
+  position: relative;
+  top: 42px;
+  right: 31px;
+  color: white;
+}
+.fontawesomeadvancefeature{
+  position: relative;
+  top: 96px;
+  right: 28px;
+  color: white;
+}
+
+/* -----------Gen DCS AI----------------- */
+
+.loginHeader{
+  background-color: rgb(0 79 154);
+  position: relative;
+  display: block;
+  height: 48px;
+  overflow-x: clip;
+}
+.logoname{
+  position: relative;
+  right: 76px;
+  top: 10px;
+}
+.pSmart{
+  color: white;
+}
+.dropdownSmart{
+  position: relative;
+  top: 5px;
+}
+.pRealTime{
+  position: relative;
+  left: 143px;
+  bottom: 27px;
+  color: white;
+}
+.divEditmode{
+  position: relative;
+  top:11px
+}
+.pEditmode{
+  color: white;
+}
+.divDownload{
+  position: relative;
+  left: 105px;
+  bottom: 26px;
+}
+.pDownload{
+  color: white;
+}
+/* Container to hold sidebar and main content */
+.container {
+  display: flex;
+   /* Ensures the container takes up the full height */
+  overflow: hidden;
+}
+
+
+.sidebar {
+  position: fixed; 
+  top: 72px; 
+  bottom: 0;
+  left: 0;
+
+}
+
+.main-content {
+  flex-grow: 1; /* Same as sidebar width */
+  overflow-x: hidden;
+  width: 100%;
+  overflow-y: auto;
+  min-width: 0; /* Prevent content from overflowing */
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #1f4e96; /* Footer background color */
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+}
+
+/* @media screen and (max-width: 768px) {
+  .sidebar {
+    width: 200px;
+  }
+  .main-content {
+    margin-left: 200px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .sidebar {
+    width: 10%;
+    height: auto;
+    position: relative;
+  }
+  .main-content {
+    margin-left: 0; 
+  }
+} */

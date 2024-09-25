@@ -1,0 +1,26 @@
+{
+    "lang": [
+        {"Id": "fil", "value": "Filipino"},
+        {"Id": "en", "value": "English"},
+        {"Id": "zh", "value": "Mandarin Chinese"},
+        {"Id": "es", "value": "Spanish"},
+        {"Id": "fr", "value": "French"},
+        {"Id": "fi", "value": "Finnish"},
+        {"Id": "ar", "value": "Standard Arabic"},
+        {"Id": "hi", "value": "Hindi"},
+        {"Id": "ru", "value": "Russian"},
+        {"Id": "pt", "value": "Portuguese"},
+        {"Id": "id", "value": "Indonesian"},
+        {"Id": "de", "value": "German"},
+        {"Id": "ja", "value": "Japanese"},
+        {"Id": "sw", "value": "Swahili"},
+        {"Id": "tr", "value": "Turkish"},
+        {"Id": "ko", "value": "Korean"},
+        {"Id": "it", "value": "Italian"},
+        {"Id": "nl", "value": "Dutch"},
+        {"Id": "fa", "value": "Persian (Farsi)"},
+        {"Id": "vi", "value": "Vietnamese"},
+        {"Id": "th", "value": "Thai"},
+        {"Id": "ms", "value": "Malay"}
+    ]
+}

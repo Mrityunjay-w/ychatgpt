@@ -1,0 +1,36 @@
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+    border: 1px solid #ccc;
+    padding: 20px;
+    z-index: 1000;
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: add shadow for better visual separation */
+    border-radius: 10px; /* Optional: rounded corners */
+    white-space: pre-line;
+  }
+  
+  .popup-inner {
+    position: relative;
+    text-align: center;
+    font-size: 9px;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .watermark {
+    width: 50px;
+    height: 50px;
+  }
+  

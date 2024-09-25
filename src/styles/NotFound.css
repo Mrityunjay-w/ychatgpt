@@ -1,0 +1,37 @@
+.containerError {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(5, 85, 235, 0.2);
+    background: url('/src/assets/images/4042.jpg') no-repeat center center fixed;
+    /* width: 1200px;
+    height: 750px;
+    margin-top: 30px; */
+}
+
+.texthead {
+    font-size: 30px;
+    color: #4524d6; 
+    margin-bottom: 600px;
+    
+}
+
+p {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.alog {
+    display: inline-block;
+    margin: 10px 15px;
+    padding: 10px 20px;
+    background-color: #65a5eb;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+
